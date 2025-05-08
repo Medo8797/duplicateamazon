@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    
+  }
+  
+  .header {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 10px;
+    
+    
+  }
+  
+  .location {
+    font-size: 14px;
+  }
+  
+  .search-box input {
+    padding: 6px;
+    width: 200px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .navbar {
+    background-color: #37475a;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    
+  }
+  .navbar a:hover {
+      background-color: grey;
+  }
+  .banner {
+    background: linear-gradient(to right, #ffe9a1, #ffd966);
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    padding: 2px;
+    justify-content: center;
+    background-color: #f3f3f3;
+   
+    
+  }
+  
+  .box {
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 21%;
+    
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+    gap: 0px;
+    flex-grow: 1;
+    flex-shrink: 5;
+    flex-basis: 300px;
+    
+  }
+ 
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .items a {
+    background-color: white;
+    border: 1px solid #ccc;
+    flex: 1 1 45%;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ffd814;
+    border: none;
+    font-weight: bold;
+  }
+  .exchange-deals {
+    background-color: #fff18f;
+    padding: 15px;
+  }
+  
+  .exchange-deals h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .deal-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .deal-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+  }
+  
+  .deal-card a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .products img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    
+  }
+  .box img{
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  .box img,
+  .deal-card img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    
+  }
+  .deal-card img {
+    margin-left: 0px;
+    margin-right: 10px;
+    
+  }
+  .box-wide {
+    width: 100%;
+    
+    white-space: nowrap;
+  }
+  .box h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .box a {
+    font-size: 14px;
+    color: #007185;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  .box-wide img {
+    width: 170px;
+    height: 200PX;
+    margin: 15px;
+    display: inline-block;
+    background-color: #ffffff;
+    justify-content: center;
+  }
+  .products .box-wide img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+    display: inline-block;
+    
+  }
+  .signin-section {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .signin-section button {
+    background-color: #ffd814;
+    border: 1px solid #fcd200;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .signin-section a {
+    color: #007185;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .back-to-top {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .footer-links {
+    background-color: #232f3e;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  
+  .footer-columns div {
+    width: 20%;
+    min-width: 180px;
+  }
+  
+  .footer-columns h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-columns p {
+    margin: 4px 0;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #3a4553;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .logo-lang {
+    margin: 20px 0;
+  }
+  
+  
+  .logo-lang button {
+    margin: 0 10px;
+    background-color: #1a1a1a;
+    border: 1px solid #999;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    
+  
+  }
+  
+  .footer-sites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  button{
+      width: 30%;
+   
+  }
